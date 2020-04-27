@@ -192,7 +192,8 @@ do_partition() {
         # default to Linux partition type (ie, ext3/ext4/xfs)
         _type=83
     fi
-    echo "n
+    echo "g
+n
 p
 1
 
